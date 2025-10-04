@@ -1,4 +1,4 @@
-package ua.ucu.apps.lab4;
+package lotr;
 
 public class Knight extends Noble{
     public Knight(){

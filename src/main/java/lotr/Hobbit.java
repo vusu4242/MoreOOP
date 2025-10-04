@@ -1,5 +1,4 @@
-package ua.ucu.apps.lab4;
-import ua.ucu.apps.strategy.HobbitKickStrategy;
+package lotr;
 
 
 public class Hobbit extends Character{

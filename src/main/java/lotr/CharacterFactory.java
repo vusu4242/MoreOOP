@@ -1,4 +1,4 @@
-package ua.ucu.apps.lab4;
+package lotr;
 import java.util.Random;
 
 public class CharacterFactory {

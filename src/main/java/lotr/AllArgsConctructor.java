@@ -1,4 +1,4 @@
-package ua.ucu.apps.lab4;
+package lotr;
 
 public @interface AllArgsConctructor {
 

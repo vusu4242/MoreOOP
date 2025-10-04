@@ -1,5 +1,4 @@
-package ua.ucu.apps.strategy;
-import ua.ucu.apps.lab4.Character;
+package lotr;
 
 public interface KickStrategy {
     void kick(Character self, Character enemy);

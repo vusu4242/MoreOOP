@@ -1,6 +1,5 @@
-package ua.ucu.apps.strategy;
+package lotr;
 
-import ua.ucu.apps.lab4.Character;
 import java.util.Random;
 
 public class RandomDamageKickStrategy implements KickStrategy {

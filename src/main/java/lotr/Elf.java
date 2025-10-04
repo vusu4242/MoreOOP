@@ -1,11 +1,9 @@
-package ua.ucu.apps.lab4;
-import ua.ucu.apps.strategy.ElfKickStrategy;
+package lotr;
 
 public class Elf extends Character{
     public Elf(){
         super(10, 10);
         setKickStrategy(new ElfKickStrategy());
-
     }
 
     // @Override

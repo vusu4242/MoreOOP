@@ -1,9 +1,8 @@
-import lotr.Hobbit;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
+package lotr;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 
 public class HobbitTest {
@@ -16,6 +15,7 @@ public class HobbitTest {
 
     @Test
     public void testToString() {
+        assertEquals(3, character.getHp());
         assertEquals("Hobbit{hp=3, power=0}", character.toString());
     }
 
